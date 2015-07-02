@@ -1,7 +1,6 @@
 <?php
 
-  unset($env);
-  $env['prefix'] = "/www/fedcloud-web";
+  include("path.php");
   include("$env[prefix]/inc/common.login.php");
 
   $qry = "show databases";
