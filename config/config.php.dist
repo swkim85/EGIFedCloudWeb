@@ -1,0 +1,18 @@
+<?php
+
+
+  # database connection
+  $conf['dbhost']   = "localhost";
+  #$conf['dbpath']   = "/tmp/mysql.sock";
+  $conf['dbport']   = "3306";
+  $conf['dbuser']   = "DB_USERNAME";
+  $conf['dbpasswd'] = "DB_PASSWORD";
+  $conf['dbname']   = "fedweb";
+
+  // certificate path
+  $conf['PROXY_DIR'] = "/www/proxy";
+
+  // openssl path
+  $conf['openssl'] = "/usr/bin/openssl";
+
+?>
