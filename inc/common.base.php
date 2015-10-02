@@ -4,7 +4,6 @@
 
   error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 
-
   $mysqli = new mysqli();
   if (!$mysqli) die('mysqli_init failed');
 

@@ -5,8 +5,8 @@
   $conf['dbhost']   = "localhost";
   #$conf['dbpath']   = "/tmp/mysql.sock";
   $conf['dbport']   = "3306";
-  $conf['dbuser']   = "DB_USERNAME";
-  $conf['dbpasswd'] = "DB_PASSWORD";
+  $conf['dbuser']   = "root";
+  $conf['dbpasswd'] = "12345678";
   $conf['dbname']   = "fedweb";
 
   // certificate path

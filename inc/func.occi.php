@@ -238,9 +238,8 @@ class OCCI_Client {
     if ($retval) $this->_error($command);
 
     $json = $output[0];
-    $info = json_decode($json, true)[0];
-
-    return $info;
+    $info = json_decode($json, true);
+    return $info[0];
   }
 
 
@@ -256,10 +255,8 @@ class OCCI_Client {
     if ($retval) $this->_error($command);
 
     $json = $output[0];
-    $info = json_decode($json, true)[0];
-
-    return $info;
-
+    $info = json_decode($json, true);
+    return $info[0];
   }
 
   function Create_VM_Instance($name, $osid, $resid) {
